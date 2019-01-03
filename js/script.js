@@ -52,11 +52,12 @@ function passExams(name, score){
   var passUniversity = 80;
   //passing grade for college
   var passCollege = 50;
- //determine if requirements is met
+ //determine if requirements is met for university
   if(score >= passUniversity ){
    //This condition must be true. If it is false, then the score was lower than the requirements
     console.log(name + "has enrolled in university and has passed with" + score + " points.");
   }
+  //determine if requirements is met for university
   else if(score >= passCollege){
    console.log(name + "has enrolled in university and has passed with" + score + " points.");
   }
