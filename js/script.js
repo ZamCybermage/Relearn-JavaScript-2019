@@ -41,3 +41,6 @@ if(scoreOfOsama > scoreOfMohammed){
 else{
    console.log("Both students have failed");
 }
+
+
+//===================

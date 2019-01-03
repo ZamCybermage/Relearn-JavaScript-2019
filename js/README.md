@@ -58,11 +58,17 @@ Logcal Operators
   ==================Coding Task 1====================
 
   [x] Create a variable to represent the scores of exams for Osama and Mohamed and set values as 90 and 46.
+
   [x] Create a variable to set the lower limit for passing an exam and assign to it value as 55.
+
   [x] Write  the condition in if statement, which will check if both students have passed an exam and log the result in the console.
+
   [x] Use else if statement in order to check if one of the students has passed an exam and log the result to the console.
+
   [x] Use else statement in order to display in console that both students have failed.
+
   [x] In case of passing the exam by one of the students, find out which one was that and display in console as additional information, the student name and his points.
+  
   [x] Test all possible cases (a. both students passed an exam; b. Osama has passed and Mohamed has failed; c. Mohamed has passed and Osama has failed. d. Both students have failed).
 
 
