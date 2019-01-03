@@ -5,9 +5,6 @@
 
 
 
-
-
-
 // variable to represent the scores of exams for Osama and Mohamed and set values as 90 and 46.
 var scoreOfOsama = 90;
 var scoreOfMohammed = 46;
@@ -59,5 +56,8 @@ function passExams(name, score){
   if(score >= passUniversity ){
    //This condition must be true. If it is false, then the score was lower than the requirements
     console.log(name + "has enrolled in university and has passed with" + score + " points.");
+  }
+  else if(score >= passCollege){
+
   }
 }
