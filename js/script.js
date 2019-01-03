@@ -43,4 +43,21 @@ else{
 }
 
 
-//===================
+
+
+//=========================Functions===========================
+
+
+//To ensure someone meet the requirements for getting into a university of college
+
+function passExams(name, score){
+  //Passing grade for university
+  var passUniversity = 80;
+  //passing grade for college
+  var passCollege = 50;
+ //determine if requirements is met
+  if(score >= passUniversity ){
+   //This condition must be true. If it is false, then the score was lower than the requirements
+    console.log(name + "has enrolled in university and has passed with" + score + " points.");
+  }
+}
