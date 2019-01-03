@@ -48,7 +48,7 @@ else{
 //=========================Functions===========================
 
 
-//To ensure someone meet the requirements for getting into a university of college
+//To ensure someone meet the requirements for getting into a university or college
 
 function passExams(name, score){
   //Passing grade for university
