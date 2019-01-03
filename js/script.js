@@ -58,6 +58,6 @@ function passExams(name, score){
     console.log(name + "has enrolled in university and has passed with" + score + " points.");
   }
   else if(score >= passCollege){
-
+   console.log(name + "has enrolled in university and has passed with" + score + " points.");
   }
 }
