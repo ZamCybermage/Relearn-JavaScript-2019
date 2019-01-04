@@ -106,3 +106,5 @@ add(50,20);
 var sum = function(a,b){
    console.log(a + b);
 }
+
+sum(4444,39);
