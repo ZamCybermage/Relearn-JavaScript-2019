@@ -78,9 +78,12 @@ function passExams(name, score){
 //Functions to calculate scores and log to console
 
 function calculateScores(quizScore, essayScore){
+ var score = quizScore + essayScore;
 
+ //'return' stops the execution of the function and returns the value
+  return score;
 }
 
-passExams("Ahmed ", 60);
-passExams("Zamin ", 40);
-passExams("Salim ", 99);
+passExams("Ahmed ", calculateScores(30,30));
+passExams("Zamin ", calculateScores(20,10));
+passExams("Salim ", calculateScores(33,66));
