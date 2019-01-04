@@ -87,3 +87,12 @@ function calculateScores(quizScore, essayScore){
 passExams("Ahmed ", calculateScores(30,30));
 passExams("Zamin ", calculateScores(20,10));
 passExams("Salim ", calculateScores(33,66));
+
+
+//==========================================================================================
+
+//======Function statements============
+
+function add(a,b) {
+  console.log(a + b);
+}
