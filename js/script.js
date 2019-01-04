@@ -165,4 +165,19 @@ sum(4444,39);
 
    //Add a new item to replaced the removed item from initial array position
    //'unshift()' method
+   trinbagoFlag.unshift("Violet");
+
+  //Searching for position of an item in array
+ // 'indexOf()' method
+  console.log(trinbagoFlag.indexOf("white"));
+  console.log(trinbagoFlag.indexOf("plum"));
+//----------------------------------------------------------------------------------------
+ //Example to find if the blue colour does not exist and add it if it does not exist
+  if(trinbagoFlag.indexOf("blue") === -1){
+    trinbagoFlag.push("blue");
+    console.log(trinbagoFlag);
+  }
+ //-----------------------------------------------------------------
+
+
     console.log(trinbagoFlag);
