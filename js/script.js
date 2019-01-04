@@ -96,3 +96,13 @@ passExams("Salim ", calculateScores(33,66));
 function add(a,b) {
   console.log(a + b);
 }
+add(50,20);
+
+
+
+//========Function Expression=========
+//Also called anonymous functions
+
+var sum = function(a,b){
+   console.log(a + b);
+}
