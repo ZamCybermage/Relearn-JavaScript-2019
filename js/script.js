@@ -150,10 +150,19 @@ sum(4444,39);
    // 2) Set its index to a new value
 
   trinbagoFlag[2] = "Yellow";
-  console.log(trinbagoFlag);
-
 
   //Add items at the end to an array
   //'push()' method
-
    trinbagoFlag.push("Indigo");
+
+  //Remove elements from end of array
+   //'pop()' method
+   trinbagoFlag.pop("Indigo");
+
+   //Remove items from beginning of array
+   //'shift()' method
+   trinbagoFlag.shift();
+
+   //Add a new item to replaced the removed item from initial array position
+   //'unshift()' method
+    console.log(trinbagoFlag);
