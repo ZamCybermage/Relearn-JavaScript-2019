@@ -113,6 +113,8 @@ sum(4444,39);
 
 //=======================Arrays===================================================
 
+//This is the literal method to write arrays
+
  var myArray = ["Hydrogen",
                "Helium",
                "Proton",
@@ -124,5 +126,14 @@ sum(4444,39);
                 }
               ];
 
- //To invoke the funtion, just add '()'
+ //To invoke the funtion, just add '()' and its index number (which is [6] here)
   console.log(myArray[6](myArray[0]));
+
+
+
+  //=======================Using the array constructor=====================
+
+  //This is the constructor method for constructing arrays
+
+  var myArray = new Array(60, "Electron", false);
+  console.log(myArray);
