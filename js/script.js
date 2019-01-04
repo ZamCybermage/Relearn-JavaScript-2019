@@ -108,3 +108,21 @@ var sum = function(a,b){
 }
 
 sum(4444,39);
+
+
+
+//=======================Arrays===================================================
+
+ var myArray = ["Hydrogen",
+               "Helium",
+               "Proton",
+                60,
+                true,
+                [20,40,80],
+                function(name){
+                  return "Hello " + name;
+                }
+              ];
+
+ //To invoke the funtion, just add '()'
+  console.log(myArray[6](myArray[0]));
