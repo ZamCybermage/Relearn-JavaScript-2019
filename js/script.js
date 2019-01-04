@@ -134,6 +134,26 @@ sum(4444,39);
   //=======================Using the array constructor=====================
 
   //This is the constructor method for constructing arrays
+  //This is hardly used
 
   var myArray = new Array(60, "Electron", false);
   console.log(myArray);
+
+
+  //=======================Array Methods============================
+
+  var trinbagoFlag = ["red", "white","black"];
+
+  //To change values in arrays
+
+   // 1) Call the array
+   // 2) Set its index to a new value
+
+  trinbagoFlag[2] = "Yellow";
+  console.log(trinbagoFlag);
+
+
+  //Add items at the end to an array
+  //'push()' method
+
+   trinbagoFlag.push("Indigo");
