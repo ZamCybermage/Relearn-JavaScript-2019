@@ -67,7 +67,20 @@ function passExams(name, score){
   }
 }
 
-//calling the function
+// //calling the function
+// passExams("Ahmed ", 60);
+// passExams("Zamin ", 40);
+// passExams("Salim ", 99);
+
+//==========================================================================================
+
+
+//Functions to calculate scores and log to console
+
+function calculateScores(quizScore, essayScore){
+
+}
+
 passExams("Ahmed ", 60);
 passExams("Zamin ", 40);
 passExams("Salim ", 99);
