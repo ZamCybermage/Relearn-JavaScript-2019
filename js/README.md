@@ -149,6 +149,30 @@ Logcal Operators
   -Almost everything in JavaScript is an object
   -To add properties to an object, use a '.' notation
 
+
+  Can be compared to a human:
+
+   ------------------------------------------
+   properties      
+  ------------------------------------------                 
+  human.firstName= "Not";    
+  human.lastName = "Sure";
+  human.age = 40;
+  human.profession = "Web Developer";
+  person.height = 190;
+
+  ------------------------------------------
+  methods     
+ ------------------------------------------
+  Actions of the human
+
+  human.speak();
+  human.run();
+  human.work();
+  human.reproduce();
+  human.party();
+  human.drinkAlcohol();
+  human.read()
   ---------------------------------------------------------------
 
 //Creating a new object
