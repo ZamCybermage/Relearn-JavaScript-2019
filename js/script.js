@@ -69,3 +69,5 @@ function passExams(name, score){
 
 //calling the function
 passExams("Ahmed ", 60);
+passExams("Zamin ", 40);
+passExams("Salim ", 99);
