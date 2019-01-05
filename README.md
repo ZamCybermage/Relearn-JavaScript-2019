@@ -68,7 +68,7 @@ Logcal Operators
   [x] Use else statement in order to display in console that both students have failed.
 
   [x] In case of passing the exam by one of the students, find out which one was that and display in console as additional information, the student name and his points.
-  
+
   [x] Test all possible cases (a. both students passed an exam; b. Osama has passed and Mohamed has failed; c. Mohamed has passed and Osama has failed. d. Both students have failed).
 
 
@@ -135,8 +135,8 @@ Logcal Operators
   ====================Expressions vs Statements=======================
 
 
-  -statements are instructions to be executed by the web browser;
-  -expressions always give a value (e.g w = 60; 60 ===true;)
+  -statements are instructions to be executed by the web browser.
+  -expressions always give a value (e.g w = 60; 60 ===true;) and can be written whereever a value is expected.
 
 
   ===========================================
@@ -149,6 +149,30 @@ Logcal Operators
   -Almost everything in JavaScript is an object
   -To add properties to an object, use a '.' notation
 
+
+  Can be compared to a human:
+
+   ------------------------------------------
+   properties      
+  ------------------------------------------                 
+  human.firstName= "Not";    
+  human.lastName = "Sure";
+  human.age = 40;
+  human.profession = "Web Developer";
+  person.height = 190;
+
+  ------------------------------------------
+  methods     
+ ------------------------------------------
+  Actions of the human
+
+  human.speak();
+  human.run();
+  human.work();
+  human.reproduce();
+  human.party();
+  human.drinkAlcohol();
+  human.read()
   ---------------------------------------------------------------
 
 //Creating a new object
