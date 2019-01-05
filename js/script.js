@@ -236,3 +236,21 @@ var secondPerson = {
 
  //Calling the method
  secondPerson.meinFunktion(secondPerson.cat.name, secondPerson.firstname, secondPerson.cat.age);
+
+
+
+ //=====================================================================================
+
+ //========================Loops================
+
+ //Looping is the repeating a block of code once the condition is true
+
+ var nobleGases = ["Helium", "Argon", "Krypton", "Xenon"];
+
+ //outputting each item in the console
+  for( var i =0; i < nobleGases.length; i++){
+    // i = i+1
+    //The value is incremented by when in a single loop
+    console.log(nobleGases[i]);
+
+  }
