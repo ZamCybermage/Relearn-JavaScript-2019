@@ -252,5 +252,20 @@ var secondPerson = {
     // i = i+1
     //The value is incremented by when in a single loop
     console.log(nobleGases[i]);
+  }
 
+
+  //----Using 'break' statement
+  //To stop the loop when the condition is true inside the if statement use 'break'
+  var arabNames = ["Mahmud", "Salman", "Mohammed", "Abdullah"];
+
+  for(var i = 0; i < arabNames.length; i++){
+      //finding my surname from the array
+      if(arabNames[i] === "Mohammed"){
+        console.log(arabNames[i] + " is my surname");
+        break;
+      }
+      //other statements can be logged to console
+      //nothing outside will run since 'break' was added above
+      console.log(arabNames[i]);
   }
