@@ -300,3 +300,45 @@ while(i <= 19){
   console.log(i);
          i++;
 }
+
+//---------------------------------------------------
+
+ var screenColours = ["Red","Green","Blue"];
+
+ var i = 0;
+ while(i < screenColours.length){
+    i++;
+    console.log(screenColours[i]);
+    /* We get 'undefined' for first item since the last item is index 4
+    which does not exist (since 'i <screenColours.length') */
+ }
+
+//==================================================
+
+
+//==========Do While loops===================
+var printingColours = ["Cyan", "Magenta", "Yellow", "Black"];
+
+var i = 0;
+
+do{
+  console.log(printingColours[i]);
+  i++;
+}
+while (i < printingColours.length);
+
+//Block of code will execute once condition is true
+
+//-----------If condition is false:
+
+var printingColours = ["Cyan", "Magenta", "Yellow", "Black"];
+
+var i = 0;
+
+do{
+  console.log(printingColours[i]);
+  i++;
+}
+while (i > printingColours.length);
+//Only first item in array is displayed
+//-------------------------------------
