@@ -217,6 +217,22 @@ var secondPerson = {
   firstname: "Azam",
   lastname: "Mohammed",
   age: 32,
-  occupation: "Graphic Designer"
+  occupation: "Graphic Designer",
+  cat: {
+    name: "Piglette",
+    age: 3
+  },
+  //Use anonymous functions
+  //These are called methods
+  meinFunktion: function(catName, ownerName, catAge){
 
+    console.log(catName + " is the cat of " + ownerName + " and he is "
+    + catAge  + " years old");
+   }
  };
+
+ console.log(secondPerson);
+ console.log(secondPerson.cat.name);
+
+ //Calling the method
+ secondPerson.meinFunktion(secondPerson.cat.name, secondPerson.firstname, secondPerson.cat.age);
