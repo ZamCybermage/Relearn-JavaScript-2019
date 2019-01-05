@@ -193,4 +193,18 @@ sum(4444,39);
 
   //===============Objects====================================================
 
-  //=============To Be Continued============================
+  //Creating a new object
+
+    var person = new Object();
+    var occupation = 'job';
+    var name = 'firstname';
+
+    person.name = "Zaam";
+    person['lastname'] = "Hamed";
+    person[occupation] = "Digital Designer";
+
+
+    //outputting to console
+    console.log(person);
+    console.log(person.firstname);
+    console.log(person['lastname']);
