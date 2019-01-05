@@ -317,6 +317,7 @@ while(i <= 19){
 
 
 //==========Do While loops===================
+
 var printingColours = ["Cyan", "Magenta", "Yellow", "Black"];
 
 var i = 0;
