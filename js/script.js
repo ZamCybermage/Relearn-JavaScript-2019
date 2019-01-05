@@ -255,6 +255,7 @@ var secondPerson = {
   }
 
 
+
   //----Using 'break' statement
   //To stop the loop when the condition is true inside the if statement use 'break'
   var arabNames = ["Mahmud", "Salman", "Mohammed", "Abdullah"];
@@ -267,5 +268,23 @@ var secondPerson = {
       }
       //other statements can NOT be logged to console
       //nothing outside will run since 'break' was added above
+      console.log(arabNames[i]);
+  }
+
+
+
+  //-----Using 'continue' statement
+  //Below it will output everything in the array except  'Mohammed'
+  //'continue' breaks one iteration in a loop if a specified condition occurs and continues with the next iteration in the loop
+  // i.e. it breaks the current iteration and moves directly to the next iteration
+
+  var arabNames = ["Mahmud", "Salman", "Mohammed", "Abdullah"];
+
+  for(var i = 0; i < arabNames.length; i++){
+      //finding my surname from the array
+      if(arabNames[i] === "Mohammed"){
+        console.log(arabNames[i] + " is my surname");
+        continue;
+      }
       console.log(arabNames[i]);
   }
