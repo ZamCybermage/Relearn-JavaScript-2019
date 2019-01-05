@@ -176,6 +176,7 @@ sum(4444,39);
  // 'indexOf()' method
   console.log(trinbagoFlag.indexOf("white"));
   console.log(trinbagoFlag.indexOf("plum"));
+
 //----------------------------------------------------------------------------------------
  //Example to find if the blue colour does not exist and add it if it does not exist
   if(trinbagoFlag.indexOf("blue") === -1){
