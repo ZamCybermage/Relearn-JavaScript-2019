@@ -193,7 +193,7 @@ sum(4444,39);
 
   //===============Objects====================================================
 
-  //Creating a new object
+  //Creating a new object with constructor method
 
     var person = new Object();
     var occupation = 'job';
@@ -208,3 +208,15 @@ sum(4444,39);
     console.log(person);
     console.log(person.firstname);
     console.log(person['lastname']);
+
+
+//================================================================
+
+//Creating objects with literals
+var secondPerson = {
+  firstname: "Azam",
+  lastname: "Mohammed",
+  age: 32,
+  occupation: "Graphic Designer"
+
+ };
