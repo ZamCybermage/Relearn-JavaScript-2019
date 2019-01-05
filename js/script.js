@@ -265,7 +265,7 @@ var secondPerson = {
         console.log(arabNames[i] + " is my surname");
         break;
       }
-      //other statements can be logged to console
+      //other statements can NOT be logged to console
       //nothing outside will run since 'break' was added above
       console.log(arabNames[i]);
   }
