@@ -233,3 +233,46 @@ for(initialiser variable; condition; increment){
 'continue' breaks one iteration in the loop.
 
 --------------------------------------------------
+
+
+
+===============Date Object===================
+
+getDate() ====> gets the date as numbers (1 - 31)
+
+getDay() ====> gets the weekday as a number (0 -6)
+
+getFullYear() ===> gets the four digit year (yyyy)
+
+getHours() ===> gets hours (0 - 23)
+
+getMilliseconds() ===> gets milliseconds
+
+getMinutes() ===> gets minutes (0 - 59)
+
+getMonth()  ====> gets month (0 - 11)
+
+getSeconds() ====> gets seconds (0 - 59)
+
+
+----------------------------------------------------
+
+Set date object methods
+
+---------------------------------------------------
+
+setDate()  ====> set the day as a number (1 -31)
+
+setFullYear()  ====> set four digit year (yyyy)
+
+setHours()  ====> set hours ( 0 -23)
+
+setMilliseconds()  ====> sets milliseconds ( 0 - 999)
+
+setMinutes() =====> sets the minutes ( 0 - 59)
+
+setMonths() =====> sets months ( 0 -11 )
+
+setSeconds() ======> sets the seconds ( 0 - 59)
+
+--------------------------------------------------

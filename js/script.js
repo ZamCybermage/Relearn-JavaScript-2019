@@ -349,3 +349,21 @@ while (i > printingColours.length);
 
 
 //--------Date Objects----------------------
+
+//giving current date and time
+var date = new Date();
+
+//get the current year
+var year =date.getFullYear();
+
+//getting month
+var month = date.getMonth();
+
+//setting parts of the dates. This changes current date and month
+date.setFullYear(1670);
+date.setMonth(9);
+
+
+console.log(date);
+console.log(year);
+console.log(month);
