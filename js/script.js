@@ -359,6 +359,9 @@ var year =date.getFullYear();
 //getting month
 var month = date.getMonth();
 
+// using a single letter variable
+ f = date.setFullYear(1960);
+
 //setting parts of the dates. This changes current date and month
 date.setFullYear(1670);
 date.setMonth(9);
@@ -367,3 +370,5 @@ date.setMonth(9);
 console.log(date);
 console.log(year);
 console.log(month);
+//This displays milliseconds from October 1960
+console.log(f);
