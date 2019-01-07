@@ -43,6 +43,9 @@ function digitalClock(){
    //change font of display to san-serif
    document.getElementById("clock").style.fontFamily = "sans-serif";
 
+   //change font size
+   document.getElementById("clock").style.fontSize = "12em";
+
 
 }
 
