@@ -31,12 +31,18 @@ function digitalClock(){
 
  //Displays current time in digital clock format & also current day name
   var clock = weekDays[day] + ' '+ hours + ':' + minutes + ':' + seconds;
-  console.log(clock);
+  /* console.log(clock); */
 
 
   //=============displaying clock on page=======
     //accessing 'h1' element
     document.getElementById("clock").innerHTML = clock;
+  //change color of display font
+   document.getElementById("clock").style.color = "#fafafa";
+
+   //change font of display to san-serif
+   document.getElementById("clock").style.fontFamily = "sans-serif";
+
 
 }
 

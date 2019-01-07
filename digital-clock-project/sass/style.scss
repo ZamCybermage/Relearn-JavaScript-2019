@@ -1,0 +1,21 @@
+$document-font: san-serif;
+$bodyMagenta: #b00020;
+$bodyDarkgrey: #212121;
+$fontColor: #fafafa;
+
+
+
+body,html{
+  background-color: $bodyDarkgrey;
+  font: {
+    family: $document-font;
+  }
+}
+
+.container{
+  h1{
+    font:{
+      family: $document-font;
+    }
+  }
+}
