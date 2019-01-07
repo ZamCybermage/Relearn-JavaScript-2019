@@ -3,6 +3,13 @@ $bodyMagenta: #b00020;
 $bodyDarkgrey: #212121;
 $fontColor: #fafafa;
 
+@mixin containerSize{
+  height: 100%;
+  width: auto;
+  background-color: $bodyMagenta;
+  margin: 0 auto;
+}
+
 
 
 body,html{
@@ -13,9 +20,5 @@ body,html{
 }
 
 .container{
-  h1{
-    font:{
-      family: $document-font;
-    }
-  }
+  @include containerSize;
 }

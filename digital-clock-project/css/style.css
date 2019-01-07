@@ -2,5 +2,8 @@ body, html {
   background-color: #212121;
   font-family: san-serif; }
 
-.container h1 {
-  font-family: san-serif; }
+.container {
+  height: 100%;
+  width: auto;
+  background-color: #b00020;
+  margin: 0 auto; }
