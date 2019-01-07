@@ -7,4 +7,8 @@ body, html {
   width: auto;
   background-color: #b00020;
   text-align: center;
-  padding: 20px; }
+  padding: 20px;
+  border-radius: 109px 109px 109px 109px;
+  -moz-border-radius: 109px 109px 109px 109px;
+  -webkit-border-radius: 109px 109px 109px 109px;
+  border: 0px solid #b00020; }
