@@ -24,7 +24,6 @@ var students = [
  score_1: 44,
  score_2: 46,
 }
-
 ];
 
 
@@ -36,3 +35,12 @@ function totalScore(scre_1, scre_2){
  var sumScre = scre_1 + scre_2;
  return sumScre;
 }
+
+function calCfinal(){
+  for(var i = 0; i < students.length; i++){
+    students[i].sum = totalScore(students[i].score_1,
+    students[i].score_2);
+  }
+  console.log(students);
+}
+calCfinal();
