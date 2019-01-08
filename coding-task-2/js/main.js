@@ -30,12 +30,15 @@ var students = [
 var certificates = ["Alpha", "Beta", "Gamma", "Delta", "Epsilon"];
 var certLimits = [95, 86, 75, 63, 54];
 
+
+//calculate total score (score-1 + score-2) for each student
 function totalScore(scre_1, scre_2){
 
  var sumScre = scre_1 + scre_2;
  return sumScre;
 }
 
+//which student has passed an exam and what kind of degree he got
 function calCfinal(){
   for(var i = 0; i < students.length; i++){
     students[i].sum = totalScore(students[i].score_1,
