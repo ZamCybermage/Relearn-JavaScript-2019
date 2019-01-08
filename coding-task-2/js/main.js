@@ -16,7 +16,7 @@ var students = [
 {
  name: "Jesus",
  score_1: 30,
- score_2: 50,
+ score_2: 10,
 },
 
 {
@@ -51,8 +51,14 @@ function calCfinal(){
         if(students[i].sum >= certLimits[j]){
 
          console.log("He has " + students[i].sum + " points and he got diploma with degree " + certificates[j]);
+         console.log('________________________________________');
+         break;
         }
       }
+    }
+    else {
+      console.log(students[i].name + " got " + students[i].sum + " points, has failed and must re-take the test next year");
+      console.log('________________________________________');
     }
   }
   console.log(students);
