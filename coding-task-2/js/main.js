@@ -26,3 +26,13 @@ var students = [
 }
 
 ];
+
+
+var certificates = ["Alpha", "Beta", "Gamma", "Delta", "Epsilon"];
+var certLimits = [95, 86, 75, 63, 54];
+
+function totalScore(scre_1, scre_2){
+
+ var sumScre = scre_1 + scre_2;
+ return sumScre;
+}
