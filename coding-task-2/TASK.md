@@ -3,6 +3,7 @@
 1) Create an array - students, insert four items, which should be objects and have three properties: name,
 1st score, 2nd score with the following values:
 
+
 a) Vladimir, 50, 49
 b) Ahmed, 40, 39
 c) Jesus, 30, 50
