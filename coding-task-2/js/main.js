@@ -38,12 +38,37 @@ function totalScore(scre_1, scre_2){
  return sumScre;
 }
 
-//which student has passed an exam and what kind of degree he got
+//which student has passed successfully
 function calCfinal(){
   for(var i = 0; i < students.length; i++){
     students[i].sum = totalScore(students[i].score_1,
     students[i].score_2);
+
+    if(students[i].sum >= 54){
+      console.log(students[i].name + " has passed successfully");
+      for(var j = 0; j < certLimits.length; j++){
+
+        if(students[i].sum >= certLimits[j]){
+
+         console.log("He has " + students[i].sum + " points and he got diploma with degree " + certificates[j]);
+        }
+      }
+    }
   }
   console.log(students);
 }
 calCfinal();
+
+
+
+//==========================Demonstrating a nested 'for-loops'========
+//
+// console.log("_________________________");
+//
+// for(i = 400; i < 500; i++){
+//   for(j = 200; j < 300; j++){
+//     console.log(j);
+//   }
+//   console.log(i);
+// }
+// //=====================================================================
